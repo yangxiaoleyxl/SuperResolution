@@ -1,0 +1,15 @@
+input_size: 64
+output_size: 256
+scale_factor: 4
+
+pre_upsample: false
+
+max_epoch: 100
+batch_size: 16
+learning_rate: 0.0005
+loss_fn: "L1"
+
+use_pretrained: true
+pretrained_path: "pretrained/RFDN.pth"
+use_checkpoint: false
+checkpoint_path: "checkpoint/RFDN.pth"

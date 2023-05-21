@@ -1,0 +1,49 @@
+NEAREST:
+Test PSNR: 23.8894
+Test SSIM: 0.8378
+Speed: 1.9709 ms/img
+
+BILINEAR:
+Test PSNR: 26.0668
+Test SSIM: 0.8824
+Speed: 2.2878 ms/img
+
+BICUBIC:
+Test PSNR: 25.9171
+Test SSIM: 0.8806
+Speed: 2.8791 ms/img
+
+SRCNN:
+Test PSNR: 26.8999
+Test SSIM: 0.8956
+Speed: 3.9163 ms/img
+
+ESPCN:
+Test PSNR: 26.7957
+Test SSIM: 0.8927
+Speed: 2.2563 ms/img
+
+FSRCNN:
+Test PSNR: 27.3348
+Test SSIM: 0.9023
+Speed: 2.7776 ms/img
+
+DRRN:
+Test PSNR: 26.0473
+Test SSIM: 0.8781
+Speed: 30.6751 ms/img
+
+RFDN:
+Test PSNR: 27.6385
+Test SSIM: 0.9062
+Speed: 7.5734 ms/img
+
+MAFFSRN:
+Test PSNR: 27.7142
+Test SSIM: 0.9102
+Speed: 31.0628 ms/img
+
+BSRN:
+Test PSNR: 27.7952
+Test SSIM: 0.9092
+Speed: 16.7357 ms/img

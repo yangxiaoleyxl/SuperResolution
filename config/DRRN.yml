@@ -1,0 +1,18 @@
+input_size: 64
+output_size: 256
+scale_factor: 4
+
+pre_upsample: true
+conv_num: 128
+
+max_epoch: 100
+batch_size: 16
+learning_rate: 0.0001
+momentum: 0.9
+weight_decay: 0.0001
+loss_fn: "MSE"
+
+use_pretrained: false
+pretrained_path: ""
+use_checkpoint: false
+checkpoint_path: "checkpoint/DRRN.pth"

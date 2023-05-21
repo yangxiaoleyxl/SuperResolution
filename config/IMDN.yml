@@ -1,0 +1,16 @@
+input_size: 64
+output_size: 256
+scale_factor: 4
+
+pre_upsample: true
+
+max_epoch: 20
+batch_size: 16
+learning_rate: 0.0003
+loss_fn: "L1"
+
+use_pretrained: true
+pretrained_path: "pretrained/IMDN_x4.pth"
+use_checkpoint: true
+checkpoint_path: "checkpoint/IMDN.pth"
+
